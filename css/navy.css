@@ -308,6 +308,7 @@ body {
 #banner {
   color: rgba(255,255,255,0.8);
   text-align: center;
+  background: url("images/banner.jpg") center #000;
 }
 #banner-title {
   padding-top: 20px;
