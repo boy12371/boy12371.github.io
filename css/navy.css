@@ -207,14 +207,6 @@ body {
     justify-content: center;
   }
 }
-#logo-wrap {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 0 50px;
-  -ms-flex: 0 50px;
-  flex: 0 50px;
-}
 #logo {
   text-indent: 101%;
   white-space: nowrap;
