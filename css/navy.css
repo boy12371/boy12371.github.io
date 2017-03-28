@@ -440,6 +440,11 @@ body {
   margin: 1.6em 0;
   line-height: 1.6em;
 }
+.intro-feature-desc a:link,
+.intro-feature-desc a:visited {
+  text-decoration: none;
+  color: #444;
+}
 #intro-cmd-wrap {
   max-width: 700px;
   background: #eee;
