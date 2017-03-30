@@ -325,6 +325,7 @@ body {
 #banner-start {
   text-align: center;
   padding: 40px 0;
+  color: #0e83cd;
 }
 @media screen and (min-width: 769px) {
   #banner-start {
@@ -1303,7 +1304,7 @@ a.article-title:hover {
   transition: 0.4s;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  background: url("/banner.jpg") center #000;
+  background: url("/images/banner.jpg") center #000;
 }
 .mobile-nav-on #container {
   -webkit-transform: translateX(260px);
