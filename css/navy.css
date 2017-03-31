@@ -463,7 +463,7 @@ body {
   padding: 0 30px;
 }
 .intro-cmd-item:before {
-  content: "$";
+  content: "#";
   color: #0e83cd;
   padding-right: 15px;
 }
@@ -1382,6 +1382,21 @@ a.article-title:hover {
 }
 #footer-copyright a {
   font-weight: bold;
+}
+#footer-contact {
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  #footer-contact {
+    display: block;
+  }
+}
+.telephone {
+  float: right;
+}
+.weixin {
+  float: right;
+  font-size: 12px;
 }
 #footer-links {
   margin-top: 1em;
