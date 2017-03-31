@@ -2,625 +2,625 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://kuangjia.org/en/docs/variables.html</loc>
+    <loc>http://kuangjia.org/en/docs/server.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/writing.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/troubleshooting.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/en/docs/themes.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/index.html</loc>
+    <loc>http://kuangjia.org/en/docs/troubleshooting.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/themes/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/plugins/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.646Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/en/docs/templates.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/docs/setup.html</loc>
+    <loc>http://kuangjia.org/index.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/permalinks.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/docs/server.html</loc>
+    <loc>http://kuangjia.org/en/docs/variables.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/migration.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/migrator.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/generating.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/posts.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/plugins.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/processor.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/renderer.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/rendering.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/tag.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/router.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/scaffolds.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/themes.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/commands.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/configuration.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/data-files.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/asset-folders.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/contributing.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/front-matter.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/generating.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/deployment.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/migration.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/internationalization.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/permalinks.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/plugins.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/server.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/templates.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/setup.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/themes.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/helpers.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/tag-plugins.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/troubleshooting.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/writing.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/docs/variables.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/helpers.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/en/docs/tag-plugins.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/api/console.html</loc>
+    <loc>http://kuangjia.org/en/docs/setup.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/deployer.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/api/box.html</loc>
+    <loc>http://kuangjia.org/en/docs/writing.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/events.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/api/filter.html</loc>
+    <loc>http://kuangjia.org/en/docs/plugins.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/helper.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/api/generator.html</loc>
+    <loc>http://kuangjia.org/en/docs/permalinks.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/locals.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/en/api/migrator.html</loc>
+    <loc>http://kuangjia.org/en/docs/migration.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/index.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/processor.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/posts.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/renderer.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/rendering.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/scaffolds.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/themes.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/tag.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/commands.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/api/router.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/data-files.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/configuration.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/asset-folders.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/deployment.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/front-matter.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/en/docs/contributing.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/en/docs/internationalization.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.642Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/api/locals.html</loc>
+    <loc>http://kuangjia.org/en/docs/index.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/deployer.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/api/generator.html</loc>
+    <loc>http://kuangjia.org/en/index.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/api/helper.html</loc>
-    
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/api/events.html</loc>
+    <loc>http://kuangjia.org/plugins/index.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/themes/index.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/front-matter.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/deployment.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/data-files.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/contributing.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/themes.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/configuration.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/commands.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/asset-folders.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/tag.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/renderer.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/scaffolds.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/front-matter.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/generating.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/router.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/internationalization.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/deployment.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/permalinks.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/index.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/plugins.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/migration.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/server.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/setup.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/helpers.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/troubleshooting.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/writing.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/themes.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/templates.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/rendering.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/tag-plugins.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/variables.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/helpers.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/docs/generating.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/box.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/console.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/deployer.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/events.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/filter.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/helper.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/index.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/locals.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/migrator.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/posts.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/generator.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/en/api/processor.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/configuration.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/processor.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/contributing.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/commands.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/docs/asset-folders.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/themes.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/renderer.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/tag.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/scaffolds.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/router.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/rendering.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/api/filter.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/api/index.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kuangjia.org/api/box.html</loc>
+    <loc>http://kuangjia.org/docs/data-files.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/posts.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/generator.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/migrator.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/locals.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/helper.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/deployer.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/events.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/api/console.html</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/api/box.html</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/news/2016/02/27/hexo-3-2-released/</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kuangjia.org/news/2015/02/26/new-documentation-and-registry/</loc>
-    
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/news/2015/03/04/hexo-3-0-released/</loc>
     
-    <lastmod>2017-03-31T07:34:30.638Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kuangjia.org/news/2015/02/26/new-documentation-and-registry/</loc>
+    
+    <lastmod>2017-03-31T07:46:47.970Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/news/2014/07/12/hexo-2-8-released/</loc>
     
-    <lastmod>2017-03-31T07:34:30.634Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.966Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://kuangjia.org/news/2014/06/13/hexo-2-7-released/</loc>
     
-    <lastmod>2017-03-31T07:34:30.634Z</lastmod>
+    <lastmod>2017-03-31T07:46:47.966Z</lastmod>
     
   </url>
   
