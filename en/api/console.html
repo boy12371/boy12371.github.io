@@ -39,19 +39,19 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="The console forms the bridge between Hexo and its users. It registers and describes the available console commands.
-Synopsishexo.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
+  <meta name="description" content="The console forms the bridge between Kuangjia and its users. It registers and describes the available console commands.
+Synopsiskuangjia.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Console">
 <meta property="og:url" content="http://kuangjia.org/en/api/console.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="The console forms the bridge between Hexo and its users. It registers and describes the available console commands.
-Synopsishexo.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
+<meta property="og:description" content="The console forms the bridge between Kuangjia and its users. It registers and describes the available console commands.
+Synopsiskuangjia.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Console">
-<meta name="twitter:description" content="The console forms the bridge between Hexo and its users. It registers and describes the available console commands.
-Synopsishexo.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
+<meta name="twitter:description" content="The console forms the bridge between Kuangjia and its users. It registers and describes the available console commands.
+Synopsiskuangjia.extend.console.register(name, desc, options, function(args)&amp;#123;  // .">
 <meta name="twitter:site" content="kuangjia">
   <!-- Google Analytics -->
   
@@ -104,8 +104,8 @@ Synopsishexo.extend.console.register(name, desc, options, function(args)&amp;#12
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/en/api/console.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>The console forms the bridge between Hexo and its users. It registers and describes the available console commands.</p>
-<h2 id="Synopsis" class="article-heading"><a href="#Synopsis" class="headerlink" title="Synopsis"></a>Synopsis<a class="article-anchor" href="#Synopsis" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.extend.console.register(name, desc, options, <span class="function"><span class="keyword">function</span>(<span class="params">args</span>)</span>&#123;</div><div class="line">  <span class="comment">// ...</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+                <p>The console forms the bridge between Kuangjia and its users. It registers and describes the available console commands.</p>
+<h2 id="Synopsis" class="article-heading"><a href="#Synopsis" class="headerlink" title="Synopsis"></a>Synopsis<a class="article-anchor" href="#Synopsis" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.extend.console.register(name, desc, options, <span class="function"><span class="keyword">function</span>(<span class="params">args</span>)</span>&#123;</div><div class="line">  <span class="comment">// ...</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -130,13 +130,13 @@ Synopsishexo.extend.console.register(name, desc, options, function(args)&amp;#12
 </table>
 <p>An argument <code>args</code> will be passed into the function. This is the argument that users type into the terminal. It’s parsed by <a href="https://github.com/substack/minimist" target="_blank" rel="external">Minimist</a>.</p>
 <h2 id="Options" class="article-heading"><a href="#Options" class="headerlink" title="Options"></a>Options<a class="article-anchor" href="#Options" aria-hidden="true"></a></h2><h3 id="usage" class="article-heading"><a href="#usage" class="headerlink" title="usage"></a>usage<a class="article-anchor" href="#usage" aria-hidden="true"></a></h3><p>The usage of a console command. For example:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">&#123;<span class="attr">usage</span>: <span class="string">'[layout] &lt;title&gt;'</span>&#125;</div><div class="line"><span class="comment">// hexo new [layout] &lt;title&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">&#123;<span class="attr">usage</span>: <span class="string">'[layout] &lt;title&gt;'</span>&#125;</div><div class="line"><span class="comment">// kuangjia new [layout] &lt;title&gt;</span></div></pre></td></tr></table></figure>
 <h3 id="arguments" class="article-heading"><a href="#arguments" class="headerlink" title="arguments"></a>arguments<a class="article-anchor" href="#arguments" aria-hidden="true"></a></h3><p>The description of each argument of a console command. For example:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">arguments</span>: [</div><div class="line">    &#123;<span class="attr">name</span>: <span class="string">'layout'</span>, <span class="attr">desc</span>: <span class="string">'Post layout'</span>&#125;,</div><div class="line">    &#123;<span class="attr">name</span>: <span class="string">'title'</span>, <span class="attr">desc</span>: <span class="string">'Post title'</span>&#125;</div><div class="line">  ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h3 id="options" class="article-heading"><a href="#options" class="headerlink" title="options"></a>options<a class="article-anchor" href="#options" aria-hidden="true"></a></h3><p>The description of each option of a console command. For example:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">options</span>: [</div><div class="line">    &#123;<span class="attr">name</span>: <span class="string">'-r, --replace'</span>, <span class="attr">desc</span>: <span class="string">'Replace existing files'</span>&#125;</div><div class="line">  ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h3 id="desc" class="article-heading"><a href="#desc" class="headerlink" title="desc"></a>desc<a class="article-anchor" href="#desc" aria-hidden="true"></a></h3><p>More detailed information about a console command.</p>
-<h2 id="Example" class="article-heading"><a href="#Example" class="headerlink" title="Example"></a>Example<a class="article-anchor" href="#Example" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.extend.console.register(<span class="string">'config'</span>, <span class="string">'Display configuration'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">args</span>)</span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(hexo.config);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h2 id="Example" class="article-heading"><a href="#Example" class="headerlink" title="Example"></a>Example<a class="article-anchor" href="#Example" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.extend.console.register(<span class="string">'config'</span>, <span class="string">'Display configuration'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">args</span>)</span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(kuangjia.config);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 
               </div>
               <footer class="article-footer">

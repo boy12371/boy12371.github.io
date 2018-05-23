@@ -40,7 +40,7 @@
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
   <meta name="description" content="A renderer is used to render content.
-Synopsishexo.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
+Synopsiskuangjia.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
 
 
 
@@ -57,7 +57,7 @@ Input filename extension">
 <meta property="og:url" content="http://kuangjia.org/en/api/renderer.html">
 <meta property="og:site_name" content="kuangjia.org">
 <meta property="og:description" content="A renderer is used to render content.
-Synopsishexo.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
+Synopsiskuangjia.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
 
 
 
@@ -73,7 +73,7 @@ Input filename extension">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Renderer">
 <meta name="twitter:description" content="A renderer is used to render content.
-Synopsishexo.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
+Synopsiskuangjia.extend.renderer.register(name, output, function(data, options)&amp;#123;  // ...&amp;#125;, sync);
 
 
 
@@ -138,7 +138,7 @@ Input filename extension">
               </header>
               <div class="article-content" itemprop="articleBody">
                 <p>A renderer is used to render content.</p>
-<h2 id="Synopsis" class="article-heading"><a href="#Synopsis" class="headerlink" title="Synopsis"></a>Synopsis<a class="article-anchor" href="#Synopsis" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.extend.renderer.register(name, output, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  <span class="comment">// ...</span></div><div class="line">&#125;, sync);</div></pre></td></tr></table></figure>
+<h2 id="Synopsis" class="article-heading"><a href="#Synopsis" class="headerlink" title="Synopsis"></a>Synopsis<a class="article-anchor" href="#Synopsis" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.extend.renderer.register(name, output, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  <span class="comment">// ...</span></div><div class="line">&#125;, sync);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -180,8 +180,8 @@ Input filename extension">
 </tr>
 </tbody>
 </table>
-<h2 id="Example" class="article-heading"><a href="#Example" class="headerlink" title="Example"></a>Example<a class="article-anchor" href="#Example" aria-hidden="true"></a></h2><h3 id="Async-Mode" class="article-heading"><a href="#Async-Mode" class="headerlink" title="Async Mode"></a>Async Mode<a class="article-anchor" href="#Async-Mode" aria-hidden="true"></a></h3><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> stylus = <span class="built_in">require</span>(<span class="string">'stylus'</span>);</div><div class="line"></div><div class="line"><span class="comment">// Callback</span></div><div class="line">hexo.extend.renderer.register(<span class="string">'styl'</span>, <span class="string">'css'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options, callback</span>)</span>&#123;</div><div class="line">  stylus(data.text).set(<span class="string">'filename'</span>, data.path).render(callback);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// Promise</span></div><div class="line">hexo.extend.renderer.register(<span class="string">'styl'</span>, <span class="string">'css'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>)</span>&#123;</div><div class="line">    resolve(<span class="string">'test'</span>);</div><div class="line">  &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<h3 id="Sync-Mode" class="article-heading"><a href="#Sync-Mode" class="headerlink" title="Sync Mode"></a>Sync Mode<a class="article-anchor" href="#Sync-Mode" aria-hidden="true"></a></h3><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>);</div><div class="line"></div><div class="line">hexo.extend.renderer.register(<span class="string">'ejs'</span>, <span class="string">'html'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  options.filename = data.path;</div><div class="line">  <span class="keyword">return</span> ejs.render(data.text, options);</div><div class="line">&#125;, <span class="literal">true</span>);</div></pre></td></tr></table></figure>
+<h2 id="Example" class="article-heading"><a href="#Example" class="headerlink" title="Example"></a>Example<a class="article-anchor" href="#Example" aria-hidden="true"></a></h2><h3 id="Async-Mode" class="article-heading"><a href="#Async-Mode" class="headerlink" title="Async Mode"></a>Async Mode<a class="article-anchor" href="#Async-Mode" aria-hidden="true"></a></h3><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> stylus = <span class="built_in">require</span>(<span class="string">'stylus'</span>);</div><div class="line"></div><div class="line"><span class="comment">// Callback</span></div><div class="line">kuangjia.extend.renderer.register(<span class="string">'styl'</span>, <span class="string">'css'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options, callback</span>)</span>&#123;</div><div class="line">  stylus(data.text).set(<span class="string">'filename'</span>, data.path).render(callback);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// Promise</span></div><div class="line">kuangjia.extend.renderer.register(<span class="string">'styl'</span>, <span class="string">'css'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>)</span>&#123;</div><div class="line">    resolve(<span class="string">'test'</span>);</div><div class="line">  &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="Sync-Mode" class="article-heading"><a href="#Sync-Mode" class="headerlink" title="Sync Mode"></a>Sync Mode<a class="article-anchor" href="#Sync-Mode" aria-hidden="true"></a></h3><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>);</div><div class="line"></div><div class="line">kuangjia.extend.renderer.register(<span class="string">'ejs'</span>, <span class="string">'html'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">data, options</span>)</span>&#123;</div><div class="line">  options.filename = data.path;</div><div class="line">  <span class="keyword">return</span> ejs.render(data.text, options);</div><div class="line">&#125;, <span class="literal">true</span>);</div></pre></td></tr></table></figure>
 
               </div>
               <footer class="article-footer">

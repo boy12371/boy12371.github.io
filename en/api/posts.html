@@ -39,7 +39,7 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="Create a Posthexo.post.create(data, replace);
+  <meta name="description" content="Create a Postkuangjia.post.create(data, replace);
 
 
 
@@ -63,7 +63,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 <meta property="og:title" content="Posts">
 <meta property="og:url" content="http://kuangjia.org/en/api/posts.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="Create a Posthexo.post.create(data, replace);
+<meta property="og:description" content="Create a Postkuangjia.post.create(data, replace);
 
 
 
@@ -86,7 +86,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Create a Posthexo.post.create(data, replace);
+<meta name="twitter:description" content="Create a Postkuangjia.post.create(data, replace);
 
 
 
@@ -158,7 +158,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/en/api/posts.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="Create-a-Post" class="article-heading"><a href="#Create-a-Post" class="headerlink" title="Create a Post"></a>Create a Post<a class="article-anchor" href="#Create-a-Post" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.post.create(data, replace);</div></pre></td></tr></table></figure>
+                <h2 id="Create-a-Post" class="article-heading"><a href="#Create-a-Post" class="headerlink" title="Create a Post"></a>Create a Post<a class="article-anchor" href="#Create-a-Post" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.post.create(data, replace);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -200,7 +200,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 </tr>
 <tr>
 <td><code>path</code></td>
-<td>Path. Hexo builds the post path based on the <code>new_post_path</code> setting by default.</td>
+<td>Path. Kuangjia builds the post path based on the <code>new_post_path</code> setting by default.</td>
 </tr>
 <tr>
 <td><code>date</code></td>
@@ -208,7 +208,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 </tr>
 </tbody>
 </table>
-<h2 id="Publish-a-Draft" class="article-heading"><a href="#Publish-a-Draft" class="headerlink" title="Publish a Draft"></a>Publish a Draft<a class="article-anchor" href="#Publish-a-Draft" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.post.publish(data, replace);</div></pre></td></tr></table></figure>
+<h2 id="Publish-a-Draft" class="article-heading"><a href="#Publish-a-Draft" class="headerlink" title="Publish a Draft"></a>Publish a Draft<a class="article-anchor" href="#Publish-a-Draft" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.post.publish(data, replace);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -246,7 +246,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 </tr>
 </tbody>
 </table>
-<h2 id="Render" class="article-heading"><a href="#Render" class="headerlink" title="Render"></a>Render<a class="article-anchor" href="#Render" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.post.render(source, data);</div></pre></td></tr></table></figure>
+<h2 id="Render" class="article-heading"><a href="#Render" class="headerlink" title="Render"></a>Render<a class="article-anchor" href="#Render" aria-hidden="true"></a></h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.post.render(source, data);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -265,7 +265,7 @@ The attributes of a post can be defined in data. The table below is not exhausti
 </tr>
 </tbody>
 </table>
-<p>The data must contain the <code>content</code> attribute. If not, Hexo will try to read the original file. The execution steps of this function are as follows:</p>
+<p>The data must contain the <code>content</code> attribute. If not, Kuangjia will try to read the original file. The execution steps of this function are as follows:</p>
 <ul>
 <li>Execute <code>before_post_render</code> filters</li>
 <li>Render with Markdown or other renderers (depending on the extension name)</li>

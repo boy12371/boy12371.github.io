@@ -39,20 +39,20 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Hexo 中有两种形式的插件：
+  <meta name="description" content="Kuangjia 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Kuangjia 中有两种形式的插件：
 脚本（Scripts）如果您的代码很简单，建议您编写脚本，您只需要把 JavaScript 文件放到 scripts 文件夹，在启动时就会自动载入。
 插件（Packages）如果您的代码较复杂，或是您想要发布到 NPM 上，建议您编写插件。首先，在 node_modules 文件夹中建立文件">
 <meta property="og:type" content="website">
 <meta property="og:title" content="插件">
 <meta property="og:url" content="http://kuangjia.org/docs/plugins.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Hexo 中有两种形式的插件：
+<meta property="og:description" content="Kuangjia 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Kuangjia 中有两种形式的插件：
 脚本（Scripts）如果您的代码很简单，建议您编写脚本，您只需要把 JavaScript 文件放到 scripts 文件夹，在启动时就会自动载入。
 插件（Packages）如果您的代码较复杂，或是您想要发布到 NPM 上，建议您编写插件。首先，在 node_modules 文件夹中建立文件">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="插件">
-<meta name="twitter:description" content="Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Hexo 中有两种形式的插件：
+<meta name="twitter:description" content="Kuangjia 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Kuangjia 中有两种形式的插件：
 脚本（Scripts）如果您的代码很简单，建议您编写脚本，您只需要把 JavaScript 文件放到 scripts 文件夹，在启动时就会自动载入。
 插件（Packages）如果您的代码较复杂，或是您想要发布到 NPM 上，建议您编写插件。首先，在 node_modules 文件夹中建立文件">
 <meta name="twitter:site" content="kuangjia">
@@ -107,28 +107,28 @@
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/docs/plugins.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Hexo 中有两种形式的插件：</p>
+                <p>Kuangjia 有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码。在 Kuangjia 中有两种形式的插件：</p>
 <h3 id="脚本（Scripts）" class="article-heading"><a href="#脚本（Scripts）" class="headerlink" title="脚本（Scripts）"></a>脚本（Scripts）<a class="article-anchor" href="#脚本（Scripts）" aria-hidden="true"></a></h3><p>如果您的代码很简单，建议您编写脚本，您只需要把 JavaScript 文件放到 <code>scripts</code> 文件夹，在启动时就会自动载入。</p>
-<h3 id="插件（Packages）" class="article-heading"><a href="#插件（Packages）" class="headerlink" title="插件（Packages）"></a>插件（Packages）<a class="article-anchor" href="#插件（Packages）" aria-hidden="true"></a></h3><p>如果您的代码较复杂，或是您想要发布到 NPM 上，建议您编写插件。首先，在 <code>node_modules</code> 文件夹中建立文件夹，文件夹名称开头必须为 <code>hexo-</code>，如此一来 Hexo 才会在启动时载入否则 Hexo 将会忽略它。</p>
+<h3 id="插件（Packages）" class="article-heading"><a href="#插件（Packages）" class="headerlink" title="插件（Packages）"></a>插件（Packages）<a class="article-anchor" href="#插件（Packages）" aria-hidden="true"></a></h3><p>如果您的代码较复杂，或是您想要发布到 NPM 上，建议您编写插件。首先，在 <code>node_modules</code> 文件夹中建立文件夹，文件夹名称开头必须为 <code>kuangjia-</code>，如此一来 Kuangjia 才会在启动时载入否则 Kuangjia 将会忽略它。</p>
 <p>文件夹内至少要包含 2 个文件：一个是主程序，另一个是 <code>package.json</code>，描述插件的用途和所依赖的插件。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">.</div><div class="line">├── index.js</div><div class="line">└── package.json</div></pre></td></tr></table></figure>
 <p><code>package.json</code> 中至少要包含 <code>name</code>, <code>version</code>, <code>main</code> 属性，例如：</p>
-<figure class="highlight json"><figcaption><span>package.json</span></figcaption><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"name"</span>: <span class="string">"hexo-my-plugin"</span>,</div><div class="line">  <span class="attr">"version"</span>: <span class="string">"0.0.1"</span>,</div><div class="line">  <span class="attr">"main"</span>: <span class="string">"index"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="工具" class="article-heading"><a href="#工具" class="headerlink" title="工具"></a>工具<a class="article-anchor" href="#工具" aria-hidden="true"></a></h3><p>您可以使用 Hexo 提供的官方工具插件来加速开发：</p>
+<figure class="highlight json"><figcaption><span>package.json</span></figcaption><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"name"</span>: <span class="string">"kuangjia-my-plugin"</span>,</div><div class="line">  <span class="attr">"version"</span>: <span class="string">"0.0.1"</span>,</div><div class="line">  <span class="attr">"main"</span>: <span class="string">"index"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="工具" class="article-heading"><a href="#工具" class="headerlink" title="工具"></a>工具<a class="article-anchor" href="#工具" aria-hidden="true"></a></h3><p>您可以使用 Kuangjia 提供的官方工具插件来加速开发：</p>
 <ul>
-<li><a href="https://github.com/hexojs/hexo-fs" target="_blank" rel="external">hexo-fs</a>：文件 IO</li>
-<li><a href="https://github.com/hexojs/hexo-util" target="_blank" rel="external">hexo-util</a>：工具程式</li>
-<li><a href="https://github.com/hexojs/hexo-i18n" target="_blank" rel="external">hexo-i18n</a>：本地化（i18n）</li>
-<li><a href="https://github.com/hexojs/hexo-pagination" target="_blank" rel="external">hexo-pagination</a>：生成分页资料</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-fs" target="_blank" rel="external">kuangjia-fs</a>：文件 IO</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-util" target="_blank" rel="external">kuangjia-util</a>：工具程式</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-i18n" target="_blank" rel="external">kuangjia-i18n</a>：本地化（i18n）</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-pagination" target="_blank" rel="external">kuangjia-pagination</a>：生成分页资料</li>
 </ul>
 <h3 id="发布" class="article-heading"><a href="#发布" class="headerlink" title="发布"></a>发布<a class="article-anchor" href="#发布" aria-hidden="true"></a></h3><p>当您完成插件后，可以考虑将它发布到 <a href="/plugins">插件列表</a>，让更多人能够使用您的插件。发布插件的步骤和 <a href="contributing.html#更新文件">更新文件</a> 非常类似。</p>
 <ol>
-<li>Fork <a href="https://github.com/hexojs/site" target="_blank" rel="external">hexojs/site</a></li>
+<li>Fork <a href="https://github.com/kuangjiajs/site" target="_blank" rel="external">kuangjiajs/site</a></li>
 <li><p>把库（repository）复制到电脑上，并安装所依赖的插件。</p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ git clone https://github.com/&lt;username&gt;/site.git</div><div class="line">$ cd site</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 </li>
 <li><p>编辑 <code>source/_data/plugins.yml</code>，在档案中新增您的插件，例如：</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">- name: hexo-server</div><div class="line">  description: Server module for Hexo.</div><div class="line">  link: https://github.com/hexojs/hexo-server</div><div class="line">  tags:</div><div class="line">    - official</div><div class="line">    - server</div><div class="line">    - console</div></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">- name: kuangjia-server</div><div class="line">  description: Server module for Kuangjia.</div><div class="line">  link: https://github.com/kuangjiajs/kuangjia-server</div><div class="line">  tags:</div><div class="line">    - official</div><div class="line">    - server</div><div class="line">    - console</div></pre></td></tr></table></figure>
 </li>
 <li><p>推送（push）分支。</p>
 </li>

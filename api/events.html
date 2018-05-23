@@ -39,29 +39,29 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="Hexo 继承了 EventEmitter，您可以用 on 方法监听 Hexo 所发布的事件，也可以使用 emit 方法对 Hexo 发布事件，更详细的说明请参阅 Node.js 的 API。
+  <meta name="description" content="Kuangjia 继承了 EventEmitter，您可以用 on 方法监听 Kuangjia 所发布的事件，也可以使用 emit 方法对 Kuangjia 发布事件，更详细的说明请参阅 Node.js 的 API。
 deployBefore在部署完成前发布。
 deployAfter在部署成功后发布。
-exit在 Hexo 结束前发布。
+exit在 Kuangjia 结束前发布。
 generateBefore在静态文件生成前发布。
 generateAfter在静态">
 <meta property="og:type" content="website">
 <meta property="og:title" content="事件">
 <meta property="og:url" content="http://kuangjia.org/api/events.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="Hexo 继承了 EventEmitter，您可以用 on 方法监听 Hexo 所发布的事件，也可以使用 emit 方法对 Hexo 发布事件，更详细的说明请参阅 Node.js 的 API。
+<meta property="og:description" content="Kuangjia 继承了 EventEmitter，您可以用 on 方法监听 Kuangjia 所发布的事件，也可以使用 emit 方法对 Kuangjia 发布事件，更详细的说明请参阅 Node.js 的 API。
 deployBefore在部署完成前发布。
 deployAfter在部署成功后发布。
-exit在 Hexo 结束前发布。
+exit在 Kuangjia 结束前发布。
 generateBefore在静态文件生成前发布。
 generateAfter在静态">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.766Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="事件">
-<meta name="twitter:description" content="Hexo 继承了 EventEmitter，您可以用 on 方法监听 Hexo 所发布的事件，也可以使用 emit 方法对 Hexo 发布事件，更详细的说明请参阅 Node.js 的 API。
+<meta name="twitter:description" content="Kuangjia 继承了 EventEmitter，您可以用 on 方法监听 Kuangjia 所发布的事件，也可以使用 emit 方法对 Kuangjia 发布事件，更详细的说明请参阅 Node.js 的 API。
 deployBefore在部署完成前发布。
 deployAfter在部署成功后发布。
-exit在 Hexo 结束前发布。
+exit在 Kuangjia 结束前发布。
 generateBefore在静态文件生成前发布。
 generateAfter在静态">
 <meta name="twitter:site" content="kuangjia">
@@ -116,14 +116,14 @@ generateAfter在静态">
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/api/events.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>Hexo 继承了 <a href="http://nodejs.org/api/events.html" target="_blank" rel="external">EventEmitter</a>，您可以用 <code>on</code> 方法监听 Hexo 所发布的事件，也可以使用 <code>emit</code> 方法对 Hexo 发布事件，更详细的说明请参阅 Node.js 的 API。</p>
+                <p>Kuangjia 继承了 <a href="http://nodejs.org/api/events.html" target="_blank" rel="external">EventEmitter</a>，您可以用 <code>on</code> 方法监听 Kuangjia 所发布的事件，也可以使用 <code>emit</code> 方法对 Kuangjia 发布事件，更详细的说明请参阅 Node.js 的 API。</p>
 <h3 id="deployBefore" class="article-heading"><a href="#deployBefore" class="headerlink" title="deployBefore"></a>deployBefore<a class="article-anchor" href="#deployBefore" aria-hidden="true"></a></h3><p>在部署完成前发布。</p>
 <h3 id="deployAfter" class="article-heading"><a href="#deployAfter" class="headerlink" title="deployAfter"></a>deployAfter<a class="article-anchor" href="#deployAfter" aria-hidden="true"></a></h3><p>在部署成功后发布。</p>
-<h3 id="exit" class="article-heading"><a href="#exit" class="headerlink" title="exit"></a>exit<a class="article-anchor" href="#exit" aria-hidden="true"></a></h3><p>在 Hexo 结束前发布。</p>
+<h3 id="exit" class="article-heading"><a href="#exit" class="headerlink" title="exit"></a>exit<a class="article-anchor" href="#exit" aria-hidden="true"></a></h3><p>在 Kuangjia 结束前发布。</p>
 <h3 id="generateBefore" class="article-heading"><a href="#generateBefore" class="headerlink" title="generateBefore"></a>generateBefore<a class="article-anchor" href="#generateBefore" aria-hidden="true"></a></h3><p>在静态文件生成前发布。</p>
 <h3 id="generateAfter" class="article-heading"><a href="#generateAfter" class="headerlink" title="generateAfter"></a>generateAfter<a class="article-anchor" href="#generateAfter" aria-hidden="true"></a></h3><p>在静态文件生成后发布。</p>
 <h3 id="new" class="article-heading"><a href="#new" class="headerlink" title="new"></a>new<a class="article-anchor" href="#new" aria-hidden="true"></a></h3><p>在文章文件建立后发布。该事件返回文章参数。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">hexo.on(<span class="string">'new'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">post</span>)</span>&#123;</div><div class="line">  <span class="comment">// </span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">kuangjia.on(<span class="string">'new'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">post</span>)</span>&#123;</div><div class="line">  <span class="comment">// </span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>

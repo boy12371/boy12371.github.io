@@ -39,21 +39,21 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="hexo-serverWith the release of Hexo 3, the server has been separated from the main module. To start using the server, you will first have to install hexo-server.
-$ npm install hexo-server --save
+  <meta name="description" content="kuangjia-serverWith the release of Kuangjia 3, the server has been separated from the main module. To start using the server, you will first have to install kuangjia-server.
+$ npm install kuangjia-server --save
 Once">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Server">
 <meta property="og:url" content="http://kuangjia.org/en/docs/server.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="hexo-serverWith the release of Hexo 3, the server has been separated from the main module. To start using the server, you will first have to install hexo-server.
-$ npm install hexo-server --save
+<meta property="og:description" content="kuangjia-serverWith the release of Kuangjia 3, the server has been separated from the main module. To start using the server, you will first have to install kuangjia-server.
+$ npm install kuangjia-server --save
 Once">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Server">
-<meta name="twitter:description" content="hexo-serverWith the release of Hexo 3, the server has been separated from the main module. To start using the server, you will first have to install hexo-server.
-$ npm install hexo-server --save
+<meta name="twitter:description" content="kuangjia-serverWith the release of Kuangjia 3, the server has been separated from the main module. To start using the server, you will first have to install kuangjia-server.
+$ npm install kuangjia-server --save
 Once">
 <meta name="twitter:site" content="kuangjia">
   <!-- Google Analytics -->
@@ -107,16 +107,16 @@ Once">
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/en/docs/server.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="hexo-server" class="article-heading"><a href="#hexo-server" class="headerlink" title="hexo-server"></a><a href="https://github.com/hexojs/hexo-server" target="_blank" rel="external">hexo-server</a><a class="article-anchor" href="#hexo-server" aria-hidden="true"></a></h2><p>With the release of Hexo 3, the server has been separated from the main module. To start using the server, you will first have to install <a href="https://github.com/hexojs/hexo-server" target="_blank" rel="external">hexo-server</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-server --save</div></pre></td></tr></table></figure>
-<p>Once the server has been installed, run the following command to start the server. Your website will run at <code>http://localhost:4000</code> by default. When the server is running, Hexo will watch for file changes and update automatically so it’s not necessary to manually restart the server.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+                <h2 id="kuangjia-server" class="article-heading"><a href="#kuangjia-server" class="headerlink" title="kuangjia-server"></a><a href="https://github.com/kuangjiajs/kuangjia-server" target="_blank" rel="external">kuangjia-server</a><a class="article-anchor" href="#kuangjia-server" aria-hidden="true"></a></h2><p>With the release of Kuangjia 3, the server has been separated from the main module. To start using the server, you will first have to install <a href="https://github.com/kuangjiajs/kuangjia-server" target="_blank" rel="external">kuangjia-server</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-server --save</div></pre></td></tr></table></figure>
+<p>Once the server has been installed, run the following command to start the server. Your website will run at <code>http://localhost:4000</code> by default. When the server is running, Kuangjia will watch for file changes and update automatically so it’s not necessary to manually restart the server.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia server</div></pre></td></tr></table></figure>
 <p>If you want to change the port or if you’re encountering <code>EADDRINUSE</code> errors, use the <code>-p</code> option to set a different port.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server -p 5000</div></pre></td></tr></table></figure>
-<h3 id="Static-Mode" class="article-heading"><a href="#Static-Mode" class="headerlink" title="Static Mode"></a>Static Mode<a class="article-anchor" href="#Static-Mode" aria-hidden="true"></a></h3><p>In static mode, only files in the <code>public</code> folder will be served and file watching is disabled. You have to run <code>hexo generate</code> before starting the server. Usually used in production.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server <span class="_">-s</span></div></pre></td></tr></table></figure>
-<h3 id="Custom-IP" class="article-heading"><a href="#Custom-IP" class="headerlink" title="Custom IP"></a>Custom IP<a class="article-anchor" href="#Custom-IP" aria-hidden="true"></a></h3><p>Hexo runs the server at <code>0.0.0.0</code> by default. You can override the default IP setting.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server -i 192.168.1.1</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia server -p 5000</div></pre></td></tr></table></figure>
+<h3 id="Static-Mode" class="article-heading"><a href="#Static-Mode" class="headerlink" title="Static Mode"></a>Static Mode<a class="article-anchor" href="#Static-Mode" aria-hidden="true"></a></h3><p>In static mode, only files in the <code>public</code> folder will be served and file watching is disabled. You have to run <code>kuangjia generate</code> before starting the server. Usually used in production.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia server <span class="_">-s</span></div></pre></td></tr></table></figure>
+<h3 id="Custom-IP" class="article-heading"><a href="#Custom-IP" class="headerlink" title="Custom IP"></a>Custom IP<a class="article-anchor" href="#Custom-IP" aria-hidden="true"></a></h3><p>Kuangjia runs the server at <code>0.0.0.0</code> by default. You can override the default IP setting.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia server -i 192.168.1.1</div></pre></td></tr></table></figure>
 <h2 id="Pow" class="article-heading"><a href="#Pow" class="headerlink" title="Pow"></a>Pow<a class="article-anchor" href="#Pow" aria-hidden="true"></a></h2><p><a href="http://pow.cx/" target="_blank" rel="external">Pow</a> is a zero-config Rack server for Mac.</p>
 <h3 id="Install" class="article-heading"><a href="#Install" class="headerlink" title="Install"></a>Install<a class="article-anchor" href="#Install" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ curl get.pow.cx | sh</div></pre></td></tr></table></figure>
 <h3 id="Setup" class="article-heading"><a href="#Setup" class="headerlink" title="Setup"></a>Setup<a class="article-anchor" href="#Setup" aria-hidden="true"></a></h3><p>Symlink the folder into <code>~/.pow</code></p>
@@ -151,7 +151,7 @@ Once">
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">Contents</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-server"><span class="toc-text">hexo-server</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Static-Mode"><span class="toc-text">Static Mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-IP"><span class="toc-text">Custom IP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pow"><span class="toc-text">Pow</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install"><span class="toc-text">Install</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Setup"><span class="toc-text">Setup</span></a></li></ol></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#kuangjia-server"><span class="toc-text">kuangjia-server</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Static-Mode"><span class="toc-text">Static Mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-IP"><span class="toc-text">Custom IP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pow"><span class="toc-text">Pow</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install"><span class="toc-text">Install</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Setup"><span class="toc-text">Setup</span></a></li></ol></li></ol>
               <a href="#" id="article-toc-top">Back to Top</a>
             </div>
           </aside>

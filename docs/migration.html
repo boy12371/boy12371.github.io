@@ -39,27 +39,27 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="RSS首先，安装 hexo-migrator-rss 插件。
-$ npm install hexo-migrator-rss --save
+  <meta name="description" content="RSS首先，安装 kuangjia-migrator-rss 插件。
+$ npm install kuangjia-migrator-rss --save
 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。
-$ hexo migrate rss &amp;lt;source&amp;gt;
+$ kuangjia migrate rss &amp;lt;source&amp;gt;
 Jekyll把 _posts 文件夹内的所有文件复制到 source/_posts 文件夹，并在">
 <meta property="og:type" content="website">
 <meta property="og:title" content="迁移">
 <meta property="og:url" content="http://kuangjia.org/docs/migration.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="RSS首先，安装 hexo-migrator-rss 插件。
-$ npm install hexo-migrator-rss --save
+<meta property="og:description" content="RSS首先，安装 kuangjia-migrator-rss 插件。
+$ npm install kuangjia-migrator-rss --save
 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。
-$ hexo migrate rss &amp;lt;source&amp;gt;
+$ kuangjia migrate rss &amp;lt;source&amp;gt;
 Jekyll把 _posts 文件夹内的所有文件复制到 source/_posts 文件夹，并在">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="迁移">
-<meta name="twitter:description" content="RSS首先，安装 hexo-migrator-rss 插件。
-$ npm install hexo-migrator-rss --save
+<meta name="twitter:description" content="RSS首先，安装 kuangjia-migrator-rss 插件。
+$ npm install kuangjia-migrator-rss --save
 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。
-$ hexo migrate rss &amp;lt;source&amp;gt;
+$ kuangjia migrate rss &amp;lt;source&amp;gt;
 Jekyll把 _posts 文件夹内的所有文件复制到 source/_posts 文件夹，并在">
 <meta name="twitter:site" content="kuangjia">
   <!-- Google Analytics -->
@@ -113,25 +113,25 @@ Jekyll把 _posts 文件夹内的所有文件复制到 source/_posts 文件夹，
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/docs/migration.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="RSS" class="article-heading"><a href="#RSS" class="headerlink" title="RSS"></a>RSS<a class="article-anchor" href="#RSS" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-rss</code> 插件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-migrator-rss --save</div></pre></td></tr></table></figure>
+                <h2 id="RSS" class="article-heading"><a href="#RSS" class="headerlink" title="RSS"></a>RSS<a class="article-anchor" href="#RSS" aria-hidden="true"></a></h2><p>首先，安装 <code>kuangjia-migrator-rss</code> 插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-migrator-rss --save</div></pre></td></tr></table></figure>
 <p>插件安装完成后，执行下列命令，从 RSS 迁移所有文章。<code>source</code> 可以是文件路径或网址。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo migrate rss &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia migrate rss &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
 <h2 id="Jekyll" class="article-heading"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll<a class="article-anchor" href="#Jekyll" aria-hidden="true"></a></h2><p>把 <code>_posts</code> 文件夹内的所有文件复制到 <code>source/_posts</code> 文件夹，并在 <code>_config.yml</code> 中修改 <code>new_post_name</code> 参数。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">new_post_name:</span> <span class="string">:year-:month-:day-:title.md</span></div></pre></td></tr></table></figure>
-<h2 id="Octopress" class="article-heading"><a href="#Octopress" class="headerlink" title="Octopress"></a>Octopress<a class="article-anchor" href="#Octopress" aria-hidden="true"></a></h2><p>把 Octopress <code>source/_posts</code> 文件夹内的所有文件转移到 Hexo 的 <code>source/_posts</code> 文件夹，并修改 <code>_config.yml</code> 中的 <code>new_post_name</code> 参数。</p>
+<h2 id="Octopress" class="article-heading"><a href="#Octopress" class="headerlink" title="Octopress"></a>Octopress<a class="article-anchor" href="#Octopress" aria-hidden="true"></a></h2><p>把 Octopress <code>source/_posts</code> 文件夹内的所有文件转移到 Kuangjia 的 <code>source/_posts</code> 文件夹，并修改 <code>_config.yml</code> 中的 <code>new_post_name</code> 参数。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">new_post_name:</span> <span class="string">:year-:month-:day-:title.md</span></div></pre></td></tr></table></figure>
-<h2 id="WordPress" class="article-heading"><a href="#WordPress" class="headerlink" title="WordPress"></a>WordPress<a class="article-anchor" href="#WordPress" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-migrator-wordpress --save</div></pre></td></tr></table></figure>
+<h2 id="WordPress" class="article-heading"><a href="#WordPress" class="headerlink" title="WordPress"></a>WordPress<a class="article-anchor" href="#WordPress" aria-hidden="true"></a></h2><p>首先，安装 <code>kuangjia-migrator-wordpress</code> 插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-migrator-wordpress --save</div></pre></td></tr></table></figure>
 <p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考<a href="http://en.support.wordpress.com/export/" target="_blank" rel="external">WP支持页面</a>）。</p>
 <p>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 WordPress 导出的文件路径或网址。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo migrate wordpress &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
-<blockquote class="note warn"><strong class="note-title">注意</strong><p>这个插件并不能完美地实现WordPress-&gt;Hexo的数据转换，尤其是在处理WordPress的分类方面存在问题（见<a href="https://hexo.io/zh-cn/docs/front-matter.html" target="_blank" rel="external">Front-matter中的分类与标签</a>）。因此，建议您在迁移完成后，手工审阅所有生成的markdown文件，检查其中是否有错误。对于文章数量较大的WordPress站点，这项工作可能要花很长的时间。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia migrate wordpress &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
+<blockquote class="note warn"><strong class="note-title">注意</strong><p>这个插件并不能完美地实现WordPress-&gt;Kuangjia的数据转换，尤其是在处理WordPress的分类方面存在问题（见<a href="https://kuangjia.io/zh-cn/docs/front-matter.html" target="_blank" rel="external">Front-matter中的分类与标签</a>）。因此，建议您在迁移完成后，手工审阅所有生成的markdown文件，检查其中是否有错误。对于文章数量较大的WordPress站点，这项工作可能要花很长的时间。</p>
 </blockquote>
-<h2 id="Joomla" class="article-heading"><a href="#Joomla" class="headerlink" title="Joomla"></a>Joomla<a class="article-anchor" href="#Joomla" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-joomla</code> 插件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-migrator-joomla --save</div></pre></td></tr></table></figure>
+<h2 id="Joomla" class="article-heading"><a href="#Joomla" class="headerlink" title="Joomla"></a>Joomla<a class="article-anchor" href="#Joomla" aria-hidden="true"></a></h2><p>首先，安装 <code>kuangjia-migrator-joomla</code> 插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-migrator-joomla --save</div></pre></td></tr></table></figure>
 <p>使用 <a href="http://extensions.joomla.org/extensions/migration-a-conversion/data-import-a-export/12816?qh=YToxOntpOjA7czo1OiJqMnhtbCI7fQ%3D%3D" target="_blank" rel="external">J2XML</a> 组件导出 Joomla 文章。<br>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 Joomla 导出的文件路径或网址。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo migrate joomla &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia migrate joomla &lt;<span class="built_in">source</span>&gt;</div></pre></td></tr></table></figure>
 
               </div>
               <footer class="article-footer">

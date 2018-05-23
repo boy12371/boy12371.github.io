@@ -39,18 +39,18 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Hexo:
+  <meta name="description" content="Kuangjia has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Kuangjia:
 ScriptIf your plugin is relativ">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Plugins">
 <meta property="og:url" content="http://kuangjia.org/en/docs/plugins.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Hexo:
+<meta property="og:description" content="Kuangjia has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Kuangjia:
 ScriptIf your plugin is relativ">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Plugins">
-<meta name="twitter:description" content="Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Hexo:
+<meta name="twitter:description" content="Kuangjia has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Kuangjia:
 ScriptIf your plugin is relativ">
 <meta name="twitter:site" content="kuangjia">
   <!-- Google Analytics -->
@@ -104,29 +104,29 @@ ScriptIf your plugin is relativ">
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/en/docs/plugins.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Hexo:</p>
-<h3 id="Script" class="article-heading"><a href="#Script" class="headerlink" title="Script"></a>Script<a class="article-anchor" href="#Script" aria-hidden="true"></a></h3><p>If your plugin is relatively simple, it’s recommended to use a script. All you need to do is put your JavaScript files in the <code>scripts</code> folder and Hexo will load them during initialization.</p>
-<h3 id="Plugin" class="article-heading"><a href="#Plugin" class="headerlink" title="Plugin"></a>Plugin<a class="article-anchor" href="#Plugin" aria-hidden="true"></a></h3><p>If your code is complicated or if you want to publish it to the NPM registry, we recommend using a plugin. First, create a folder in the <code>node_modules</code> folder. The name of this folder must begin with <code>hexo-</code> or Hexo will ignore it.</p>
+                <p>Kuangjia has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. There are two kinds of plugins in Kuangjia:</p>
+<h3 id="Script" class="article-heading"><a href="#Script" class="headerlink" title="Script"></a>Script<a class="article-anchor" href="#Script" aria-hidden="true"></a></h3><p>If your plugin is relatively simple, it’s recommended to use a script. All you need to do is put your JavaScript files in the <code>scripts</code> folder and Kuangjia will load them during initialization.</p>
+<h3 id="Plugin" class="article-heading"><a href="#Plugin" class="headerlink" title="Plugin"></a>Plugin<a class="article-anchor" href="#Plugin" aria-hidden="true"></a></h3><p>If your code is complicated or if you want to publish it to the NPM registry, we recommend using a plugin. First, create a folder in the <code>node_modules</code> folder. The name of this folder must begin with <code>kuangjia-</code> or Kuangjia will ignore it.</p>
 <p>Your new folder must contain at least two files: one containing the actual JavaScript code and one <code>package.json</code> file that describes the purpose of the plugin and sets its dependencies.</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">.</div><div class="line">├── index.js</div><div class="line">└── package.json</div></pre></td></tr></table></figure>
 <p>At the very least, you should set the <code>name</code>, <code>version</code> and <code>main</code> entries in <code>package.json</code>. For example:</p>
-<figure class="highlight json"><figcaption><span>package.json</span></figcaption><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"name"</span>: <span class="string">"hexo-my-plugin"</span>,</div><div class="line">  <span class="attr">"version"</span>: <span class="string">"0.0.1"</span>,</div><div class="line">  <span class="attr">"main"</span>: <span class="string">"index"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>You’ll also need to list your plugin as a dependency in the root <code>package.json</code> of your hexo instance in order for Hexo to detect and load it.</p>
-<h3 id="Tools" class="article-heading"><a href="#Tools" class="headerlink" title="Tools"></a>Tools<a class="article-anchor" href="#Tools" aria-hidden="true"></a></h3><p>You can make use of the official tools provided by Hexo to accelerate development:</p>
+<figure class="highlight json"><figcaption><span>package.json</span></figcaption><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"name"</span>: <span class="string">"kuangjia-my-plugin"</span>,</div><div class="line">  <span class="attr">"version"</span>: <span class="string">"0.0.1"</span>,</div><div class="line">  <span class="attr">"main"</span>: <span class="string">"index"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>You’ll also need to list your plugin as a dependency in the root <code>package.json</code> of your kuangjia instance in order for Kuangjia to detect and load it.</p>
+<h3 id="Tools" class="article-heading"><a href="#Tools" class="headerlink" title="Tools"></a>Tools<a class="article-anchor" href="#Tools" aria-hidden="true"></a></h3><p>You can make use of the official tools provided by Kuangjia to accelerate development:</p>
 <ul>
-<li><a href="https://github.com/hexojs/hexo-fs" target="_blank" rel="external">hexo-fs</a>：File IO</li>
-<li><a href="https://github.com/hexojs/hexo-util" target="_blank" rel="external">hexo-util</a>：Utilities</li>
-<li><a href="https://github.com/hexojs/hexo-i18n" target="_blank" rel="external">hexo-i18n</a>：Localization (i18n)</li>
-<li><a href="https://github.com/hexojs/hexo-pagination" target="_blank" rel="external">hexo-pagination</a>：Generate pagination data</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-fs" target="_blank" rel="external">kuangjia-fs</a>：File IO</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-util" target="_blank" rel="external">kuangjia-util</a>：Utilities</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-i18n" target="_blank" rel="external">kuangjia-i18n</a>：Localization (i18n)</li>
+<li><a href="https://github.com/kuangjiajs/kuangjia-pagination" target="_blank" rel="external">kuangjia-pagination</a>：Generate pagination data</li>
 </ul>
 <h3 id="Publishing" class="article-heading"><a href="#Publishing" class="headerlink" title="Publishing"></a>Publishing<a class="article-anchor" href="#Publishing" aria-hidden="true"></a></h3><p>When your plugin is ready, you may consider publishing it to the <a href="/plugins">plugin list</a> to invite other people to start using it. Publishing your own plugins is very similar to <a href="contributing.html#Updating_Documentation">updating documentation</a>.</p>
 <ol>
-<li>Fork <a href="https://github.com/hexojs/site" target="_blank" rel="external">hexojs/site</a></li>
+<li>Fork <a href="https://github.com/kuangjiajs/site" target="_blank" rel="external">kuangjiajs/site</a></li>
 <li><p>Clone the repository to your computer and install dependencies.</p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ git clone https://github.com/&lt;username&gt;/site.git</div><div class="line">$ cd site</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 </li>
 <li><p>Edit <code>source/_data/plugins.yml</code> and add your plugin. For example:</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">- name: hexo-server</div><div class="line">  description: Server module for Hexo.</div><div class="line">  link: https://github.com/hexojs/hexo-server</div><div class="line">  tags:</div><div class="line">    - official</div><div class="line">    - server</div><div class="line">    - console</div></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">- name: kuangjia-server</div><div class="line">  description: Server module for Kuangjia.</div><div class="line">  link: https://github.com/kuangjiajs/kuangjia-server</div><div class="line">  tags:</div><div class="line">    - official</div><div class="line">    - server</div><div class="line">    - console</div></pre></td></tr></table></figure>
 </li>
 <li><p>Push the branch.</p>
 </li>

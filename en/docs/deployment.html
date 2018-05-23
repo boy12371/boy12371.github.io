@@ -39,21 +39,21 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="kuangjia.org">
   <!-- Open Graph -->
-  <meta name="description" content="Hexo provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
-$ hexo deploy
+  <meta name="description" content="Kuangjia provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
+$ kuangjia deploy
 Before your first deployment, you will have to modify some settin">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Deployment">
 <meta property="og:url" content="http://kuangjia.org/en/docs/deployment.html">
 <meta property="og:site_name" content="kuangjia.org">
-<meta property="og:description" content="Hexo provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
-$ hexo deploy
+<meta property="og:description" content="Kuangjia provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
+$ kuangjia deploy
 Before your first deployment, you will have to modify some settin">
 <meta property="og:updated_time" content="2017-03-31T22:19:24.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Deployment">
-<meta name="twitter:description" content="Hexo provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
-$ hexo deploy
+<meta name="twitter:description" content="Kuangjia provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.
+$ kuangjia deploy
 Before your first deployment, you will have to modify some settin">
 <meta name="twitter:site" content="kuangjia">
   <!-- Google Analytics -->
@@ -107,14 +107,14 @@ Before your first deployment, you will have to modify some settin">
                 <a href="https://github.com/boy12371/kuangjia.org/edit/master/source/en/docs/deployment.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>Hexo provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+                <p>Kuangjia provides a fast and easy deployment strategy. You only need one single command to deploy your site to your servers.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ kuangjia deploy</div></pre></td></tr></table></figure>
 <p>Before your first deployment, you will have to modify some settings in <code>_config.yml</code>. A valid deployment setting must have a <code>type</code> field. For example:</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div></pre></td></tr></table></figure>
-<p>You can use multiple deployers. Hexo will execute each deployer in order.</p>
+<p>You can use multiple deployers. Kuangjia will execute each deployer in order.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">- type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span></div><div class="line"><span class="attr">- type:</span> <span class="string">heroku</span></div><div class="line"><span class="attr">  repo:</span></div></pre></td></tr></table></figure>
-<h2 id="Git" class="article-heading"><a href="#Git" class="headerlink" title="Git"></a>Git<a class="article-anchor" href="#Git" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="external">hexo-deployer-git</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<h2 id="Git" class="article-heading"><a href="#Git" class="headerlink" title="Git"></a>Git<a class="article-anchor" href="#Git" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/kuangjiajs/kuangjia-deployer-git" target="_blank" rel="external">kuangjia-deployer-git</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-git --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">[branch]</span></div><div class="line"><span class="attr">  message:</span> <span class="string">[message]</span></div></pre></td></tr></table></figure>
 <table>
@@ -139,8 +139,8 @@ Before your first deployment, you will have to modify some settin">
 </tr>
 </tbody>
 </table>
-<h2 id="Heroku" class="article-heading"><a href="#Heroku" class="headerlink" title="Heroku"></a>Heroku<a class="article-anchor" href="#Heroku" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-heroku" target="_blank" rel="external">hexo-deployer-heroku</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-heroku --save</div></pre></td></tr></table></figure>
+<h2 id="Heroku" class="article-heading"><a href="#Heroku" class="headerlink" title="Heroku"></a>Heroku<a class="article-anchor" href="#Heroku" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/kuangjiajs/kuangjia-deployer-heroku" target="_blank" rel="external">kuangjia-deployer-heroku</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-heroku --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">heroku</span></div><div class="line"><span class="attr">  repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></div><div class="line"><span class="attr">  message:</span> <span class="string">[message]</span></div></pre></td></tr></table></figure>
 <table>
@@ -161,8 +161,8 @@ Before your first deployment, you will have to modify some settin">
 </tr>
 </tbody>
 </table>
-<h2 id="Rsync" class="article-heading"><a href="#Rsync" class="headerlink" title="Rsync"></a>Rsync<a class="article-anchor" href="#Rsync" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-rsync" target="_blank" rel="external">hexo-deployer-rsync</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-rsync --save</div></pre></td></tr></table></figure>
+<h2 id="Rsync" class="article-heading"><a href="#Rsync" class="headerlink" title="Rsync"></a>Rsync<a class="article-anchor" href="#Rsync" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/kuangjiajs/kuangjia-deployer-rsync" target="_blank" rel="external">kuangjia-deployer-rsync</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-rsync --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">rsync</span></div><div class="line"><span class="attr">  host:</span> <span class="string">&lt;host&gt;</span></div><div class="line"><span class="attr">  user:</span> <span class="string">&lt;user&gt;</span></div><div class="line"><span class="attr">  root:</span> <span class="string">&lt;root&gt;</span></div><div class="line"><span class="attr">  port:</span> <span class="string">[port]</span></div><div class="line"><span class="attr">  delete:</span> <span class="string">[true|false]</span></div><div class="line"><span class="attr">  verbose:</span> <span class="string">[true|false]</span></div><div class="line"><span class="attr">  ignore_errors:</span> <span class="string">[true|false]</span></div></pre></td></tr></table></figure>
 <table>
@@ -211,8 +211,8 @@ Before your first deployment, you will have to modify some settin">
 </tr>
 </tbody>
 </table>
-<h2 id="OpenShift" class="article-heading"><a href="#OpenShift" class="headerlink" title="OpenShift"></a>OpenShift<a class="article-anchor" href="#OpenShift" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-openshift" target="_blank" rel="external">hexo-deployer-openshift</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-openshift --save</div></pre></td></tr></table></figure>
+<h2 id="OpenShift" class="article-heading"><a href="#OpenShift" class="headerlink" title="OpenShift"></a>OpenShift<a class="article-anchor" href="#OpenShift" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/kuangjiajs/kuangjia-deployer-openshift" target="_blank" rel="external">kuangjia-deployer-openshift</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-openshift --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">openshift</span></div><div class="line"><span class="attr">  repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></div><div class="line"><span class="attr">  message:</span> <span class="string">[message]</span></div></pre></td></tr></table></figure>
 <table>
@@ -233,8 +233,8 @@ Before your first deployment, you will have to modify some settin">
 </tr>
 </tbody>
 </table>
-<h2 id="FTPSync" class="article-heading"><a href="#FTPSync" class="headerlink" title="FTPSync"></a>FTPSync<a class="article-anchor" href="#FTPSync" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/hexojs/hexo-deployer-ftpsync" target="_blank" rel="external">hexo-deployer-ftpsync</a>.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-ftpsync --save</div></pre></td></tr></table></figure>
+<h2 id="FTPSync" class="article-heading"><a href="#FTPSync" class="headerlink" title="FTPSync"></a>FTPSync<a class="article-anchor" href="#FTPSync" aria-hidden="true"></a></h2><p>Install <a href="https://github.com/kuangjiajs/kuangjia-deployer-ftpsync" target="_blank" rel="external">kuangjia-deployer-ftpsync</a>.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-ftpsync --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">ftpsync</span></div><div class="line"><span class="attr">  host:</span> <span class="string">&lt;host&gt;</span></div><div class="line"><span class="attr">  user:</span> <span class="string">&lt;user&gt;</span></div><div class="line"><span class="attr">  pass:</span> <span class="string">&lt;password&gt;</span></div><div class="line"><span class="attr">  remote:</span> <span class="string">[remote]</span></div><div class="line"><span class="attr">  port:</span> <span class="string">[port]</span></div><div class="line"><span class="attr">  ignore:</span> <span class="string">[ignore]</span></div><div class="line"><span class="attr">  connections:</span> <span class="string">[connections]</span></div><div class="line"><span class="attr">  verbose:</span> <span class="string">[true|false]</span></div></pre></td></tr></table></figure>
 <table>
@@ -288,8 +288,8 @@ Before your first deployment, you will have to modify some settin">
 </tr>
 </tbody>
 </table>
-<h2 id="SFTP" class="article-heading"><a href="#SFTP" class="headerlink" title="SFTP"></a>SFTP<a class="article-anchor" href="#SFTP" aria-hidden="true"></a></h2><p>Install [hexo-deployer-sftp]. Deploys the site via SFTP, allowing for passwordless connections using ssh-agent.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-sftps --save</div></pre></td></tr></table></figure>
+<h2 id="SFTP" class="article-heading"><a href="#SFTP" class="headerlink" title="SFTP"></a>SFTP<a class="article-anchor" href="#SFTP" aria-hidden="true"></a></h2><p>Install [kuangjia-deployer-sftp]. Deploys the site via SFTP, allowing for passwordless connections using ssh-agent.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install kuangjia-deployer-sftps --save</div></pre></td></tr></table></figure>
 <p>Edit settings.</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">sftp</span></div><div class="line"><span class="attr">  host:</span> <span class="string">&lt;host&gt;</span></div><div class="line"><span class="attr">  user:</span> <span class="string">&lt;user&gt;</span></div><div class="line"><span class="attr">  pass:</span> <span class="string">&lt;password&gt;</span></div><div class="line"><span class="attr">  remotePath:</span> <span class="string">[remote</span> <span class="string">path]</span></div><div class="line"><span class="attr">  port:</span> <span class="string">[port]</span></div><div class="line"><span class="attr">  privateKey:</span> <span class="string">[path/to/privateKey]</span></div><div class="line"><span class="attr">  passphrase:</span> <span class="string">[passphrase]</span></div><div class="line"><span class="attr">  agent:</span> <span class="string">[path/to/agent/socket]</span></div><div class="line"><span class="attr">  remotePath:</span> <span class="string">[remotePath]</span></div></pre></td></tr></table></figure>
 <table>
